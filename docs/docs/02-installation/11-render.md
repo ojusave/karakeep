@@ -1,9 +1,9 @@
 # Render
 
-Deploy Karakeep on [Render](https://render.com/) with the Blueprint in this repo (`render.yaml`). It mirrors the official Docker Compose stack: web app, Meilisearch, and headless Chrome on Render's private network.
+Deploy Karakeep on [Render](https://render.com/) using the [render-examples/karakeep-render-template](https://github.com/render-examples/karakeep-render-template) Blueprint. It mirrors the official Docker Compose stack: web app, Meilisearch, and headless Chrome on Render's private network.
 
 <p>
-  <a href="https://render.com/deploy?repo=https://github.com/karakeep-app/karakeep">
+  <a href="https://render.com/deploy-template/api/github/start?template_repo=karakeep-render-template">
     <img alt="Deploy to Render" src="https://render.com/images/deploy-to-render-button.svg" height="20" />
   </a>
 </p>
@@ -11,11 +11,11 @@ Deploy Karakeep on [Render](https://render.com/) with the Blueprint in this repo
 ### Requirements
 
 - A [Render](https://render.com/) account
-- A GitHub account (Render forks the repo when you deploy from the button)
+- A GitHub account (Render forks [render-examples/karakeep-render-template](https://github.com/render-examples/karakeep-render-template) into your account)
 
 ### 1. Deploy the Blueprint
 
-Click **Deploy to Render** above, or open the [Blueprint deploy link](https://render.com/deploy?repo=https://github.com/karakeep-app/karakeep) and apply `render.yaml`.
+Click **Deploy to Render** above, or open the [one-click deploy link](https://render.com/deploy-template/api/github/start?template_repo=karakeep-render-template) and apply `render.yaml`.
 
 Render creates three services:
 
